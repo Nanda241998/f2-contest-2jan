@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <select id="selectProfession"style="width: 90px; height: 30px">
+        <option value="profession" selected disabled>Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+    </select> <br> <br>
+    
+    <div id="list">
+    </div>
+    
+    <button id="filterBtn">Filter</button>
+    <hr>
+    <h3>Add a new user</h3>
+    <label for="nameInput">Enter Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+    <label for="professionInput">&nbsp&nbsp&nbspEnter Profession &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+    <label for="ageInput">Enter Age</label>
+    <br>
+
+    <input type="text" id="nameInput">
+    <input type="text" id="professionInput">
+    <input type="number" id="ageInput">
+
+    <br><br>
+    <button id="addBtn">Add User</button>
+    <script src="index.js"></script>
+</body>
+
+</html>
